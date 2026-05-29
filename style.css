@@ -1,0 +1,33 @@
+table {
+    width: 90%;
+    margin: 10px;
+    border-collapse: collapse;
+    border: 2px solid rgb(253, 253, 253);
+}
+th {
+    padding: 8px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(173, 216, 230);
+}
+ td{
+    padding: 8px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: lightgray;
+}
+caption {
+    text-align: center;
+    font-size: 30px;
+    
+    color: rgb(0, 0, 0);
+    background-color: rgb(103, 190, 219);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+tr:hover th{
+    background-color: rgb(50, 130, 156);
+}
+tr:hover td{
+    background-color: rgba(173, 216, 230, 0.429);
+}
